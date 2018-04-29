@@ -10,7 +10,7 @@
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development backpack dev",
-    "build": "nuxt build && backpack build",
+    "build": "FEATHERS_HOST=https://intense-citadel-94443.herokuapp.com nuxt build && FEATHERS_HOST=https://intense-citadel-94443.herokuapp.com backpack build",
     "start": "cross-env node --optimize_for_size --max_old_space_size=460 build/main.js",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
