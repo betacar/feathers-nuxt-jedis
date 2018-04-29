@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development backpack dev",
     "build": "nuxt build && backpack build",
-    "start": "cross-env node build/main.js",
+    "start": "cross-env node --optimize_for_size --max_old_space_size=460 build/main.js",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
