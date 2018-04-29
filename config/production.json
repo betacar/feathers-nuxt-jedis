@@ -1,0 +1,10 @@
+{
+  "host": "with-featherjs-app.feathersjs.com",
+  "port": "PORT",
+  "twitter": {
+    "consumer_key": "TWITTER_CONSUMER_KEY",
+    "consumer_secret": "TWITTER_CONSUMER_SECRET",
+    "token": "TWITTER_TOKEN",
+    "token_secret": "TWITTER_TOKEN_SECRET"
+  }
+}

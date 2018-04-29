@@ -1,0 +1,10 @@
+{
+  "host": "localhost",
+  "port": 3000,
+  "twitter": {
+    "consumer_key": "",
+    "consumer_secret": "",
+    "token": "",
+    "token_secret": ""
+  }
+}
