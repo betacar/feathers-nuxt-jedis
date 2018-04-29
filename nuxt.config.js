@@ -76,5 +76,9 @@ module.exports = {
         })
       }
     }
+  },
+
+  env: {
+    FEATHERS_HOST: process.env.FEATHERS_HOST
   }
 }
