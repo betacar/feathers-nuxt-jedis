@@ -16,6 +16,9 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
+  "engines": {
+    "node": ">= 9"
+  },
   "dependencies": {
     "@feathersjs/client": "^3.4.4",
     "@feathersjs/configuration": "^1.0.2",
